@@ -1,9 +1,10 @@
 {
   "name": "teste-influu",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/server.js",
   "scripts": {
-    "start": "nodemon ./src/server.js"
+    "start": "node .",
+    "test": "nodemon ."
   },
   "repository": "https://github.com/MVIEIRAB/desafio-influu.git",
   "author": "Matheus Vieira <mvieirinhaa@gmail.com>",
